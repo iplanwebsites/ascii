@@ -74,7 +74,12 @@ var server = app.listen(port, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
 
-var everyone = require("now").initialize(server);
+
+
+// nowjs.initialize(server, {socketio: {transports: ['xhr-polling', 'jsonp-polling', 'htmlfile']}});
+
+
+var everyone = require("now").initialize(server, {socketio: {transports: ['xhr-polling', 'jsonp-polling', 'htmlfile']}});
 everyone.now.logStuff = function(msg){
     console.log(msg);
 }
