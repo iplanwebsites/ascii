@@ -16,7 +16,7 @@
 	var styles = { //charachters, from lightest to darkest perceptive value
 	  lines: '▁▂▃▄▅▆▇',
 	  classic: ' `:*+#W@',
-	  signs: ' .:-=+*#%@',
+	  signs: '   .:-=+*#%@',
 	  pat: ' ░▒▓█',
 	  signs2: " .',;\"oO%8@#"
 
