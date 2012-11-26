@@ -5,7 +5,7 @@
 	var loopSpeed = 300;
 	var width = 160;
 	var height = 120;*/
-	var res_div = 1.5
+	var res_div = 1.5;
 	var loopSpeed = 1000/10;  //FPS
 	var width = 160/res_div;
 	var height = 120/res_div/1.5;
@@ -34,7 +34,7 @@
         btnStart.addEventListener('click',app.startCam);
         btnStop.addEventListener('click',app.stopCam);
         
-        
+        /*
         btnExpand = document.getElementById('expand');
         btnExpand.addEventListener('click',function(ev){
           //console.log('btn');
@@ -44,7 +44,7 @@
             app.stopCam(ev)
           }
           
-        });
+        });*/
  };
 
  app.startCam = function (e) {
