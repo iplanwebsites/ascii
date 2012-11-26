@@ -5,9 +5,10 @@
 	var loopSpeed = 300;
 	var width = 160;
 	var height = 120;*/
-	var loopSpeed = 1000/3;  //FPS
-	var width = 160/10;
-	var height = 120/10;
+	var res_div = 4
+	var loopSpeed = 1000/1;  //FPS
+	var width = 160/res_div;
+	var height = 120/res_div;
 	var record=false;
 	var mirrored=true; //flip img horizontally
 	var white_on_black = false; //reverse color of cam stream
