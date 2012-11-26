@@ -10,7 +10,7 @@
 	var width = 160/res_div;
 	var height = 120/res_div/1.5;
 	var record=false;
-	var mirrored=true; //flip img horizontally
+	var mirrored=false; //flip img horizontally
 	var white_on_black = false; //reverse color of cam stream
 	var ascii_style = 'classic';
 	var styles = { //charachters, from lightest to darkest perceptive value
