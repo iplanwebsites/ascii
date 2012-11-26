@@ -8,7 +8,7 @@
 	var loopSpeed = 1000/3;  //FPS
 	var width = 160;
 	var height = 120;
-	var record=true;
+	var record=false;
 	var mirrored=true; //flip img horizontally
 	var white_on_black = false; //reverse color of cam stream
 	var ascii_style = 'lines';
@@ -145,7 +145,7 @@ app.loop = function () {
 			  line += character;
 			}
 		}//eo for loop
-		now.showFrame(frameSTR, 'xxx');
+		now.showFrame( JSON.stringify(frameSTR), 'xxx'); //send to server!!
 		app.showFrame(frameSTR);
 		
 		if(record) recordedFrames.push(frameSTR);
