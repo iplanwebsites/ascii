@@ -22,17 +22,7 @@ function getClientIp(req) {
 /*
  * GET home page.
  */
-var ejs = require("ejs");
 
-var httpServer = require('http').createServer(function(req, response){ /* Serve your static files */ })
-httpServer.listen(8080);
-
-var nowjs = require("now");
-var everyone = nowjs.initialize(httpServer);
-
-everyone.now.logStuff = function(msg){
-    console.log(msg);
-}
 
 
 
@@ -43,7 +33,7 @@ exports.index = function(req, res) {
   //res.end('Hello World');  
   res.render('index.ejs', {foo: 'data'}, function (err, result2) {
        console.log('Render result:');
-       console.log(result2);
+       //console.log(result2);
        res.send(result2); // send rendered HTML back to client
      });
      
