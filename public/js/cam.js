@@ -5,7 +5,7 @@
 	var loopSpeed = 300;
 	var width = 160;
 	var height = 120;*/
-	var loopSpeed = 1000/0.5;  //FPS
+	var loopSpeed = 1000/2;  //FPS
 	var width = 160;
 	var height = 120;
 	var record=true;
