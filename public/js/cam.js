@@ -12,7 +12,7 @@
 	var record=false;
 	var mirrored=true; //flip img horizontally
 	var white_on_black = false; //reverse color of cam stream
-	var ascii_style = 'lines';
+	var ascii_style = 'classic';
 	var styles = { //charachters, from lightest to darkest perceptive value
 	  lines: '▁▂▃▄▅▆▇',
 	  classic: ' `:*+#W@'
