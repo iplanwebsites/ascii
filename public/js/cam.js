@@ -6,7 +6,7 @@
 	var width = 160;
 	var height = 120;*/
 	var res_div = 4
-	var loopSpeed = 1000/1;  //FPS
+	var loopSpeed = 1000/10;  //FPS
 	var width = 160/res_div;
 	var height = 120/res_div;
 	var record=false;
