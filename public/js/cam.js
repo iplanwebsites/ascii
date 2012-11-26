@@ -16,8 +16,28 @@
 	var styles = { //charachters, from lightest to darkest perceptive value
 	  lines: '▁▂▃▄▅▆▇',
 	  classic: ' `:*+#W@',
-	  signs: ' .:-=+*#%@'
+	  signs: ' .:-=+*#%@',
+	  pat: ' ░▒▓█',
+	  signs2: " .',;\"oO%8@#"
+
+          
+	  
 	}
+	
+	/*
+  # = 23
+      @ = 40
+      8 = 38
+      % = 25
+      O = 4F
+      o = 6F
+      " = 22
+      ; = 3B
+      , = 2C
+      ' = 27
+      . = 2E
+        = 20*/
+        
 	recordedFrames = [];
 	
 	var chars = styles[ascii_style].split(''); ///line styles
