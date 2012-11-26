@@ -21,7 +21,7 @@ $(document).ready(function(){
     
     
    $('.main > h1').click(function(ev){
-     console.log(this);
+     //console.log(this);
      if(! $(this).hasClass('open')) go(this); //scroll to section if we open it…
      
      $(this).toggleClass('open').next('section').slideToggle(300);
@@ -37,7 +37,7 @@ $(document).ready(function(){
    //ascii color change
    colorInterval = setInterval(function() { 
      var col = get_random_color(); 
-     console.log(col);
+    // console.log(col);
      $('#asciiText').css('color', col);
      }, 2200);
    
